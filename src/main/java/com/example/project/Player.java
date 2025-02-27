@@ -10,20 +10,23 @@ public class Player{
     
     public Player(){
         hand = new ArrayList<>();
+        allCards = new ArrayList<>();
     }
 
     public ArrayList<Card> getHand(){return hand;}
     public ArrayList<Card> getAllCards(){return allCards;}
 
     public void addCard(Card c){
-        
+        hand.add(c);
     }
 
     public String playHand(ArrayList<Card> communityCards){      
         return "Nothing";
     }
 
-    public void sortAllCards(){} 
+    public void sortAllCards(){
+        for ()
+    } 
 
     public ArrayList<Integer> findRankingFrequency(){
         return new ArrayList<>(); 
